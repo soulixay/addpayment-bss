@@ -1,0 +1,31 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.2.0-preview1.23462.5",
+  "options": {
+    "inputs": [
+      "http://10.30.5.46:8181/api/services/EntityAction?WSDL"
+    ],
+    "namespaceMappings": [
+      "*, Soap_Bss"
+    ],
+    "outputFile": "Reference.cs",
+    "references": [
+      "Microsoft.Win32.SystemEvents, {Microsoft.Win32.SystemEvents, 7.0.0}",
+      "Oracle.ManagedDataAccess, {Oracle.ManagedDataAccess.Core, 23.3.1-dev}",
+      "System.Configuration.ConfigurationManager, {System.Configuration.ConfigurationManager, 7.0.0}",
+      "System.Diagnostics.DiagnosticSource, {System.Diagnostics.DiagnosticSource, 7.0.2}",
+      "System.Diagnostics.EventLog, {System.Diagnostics.EventLog, 7.0.0}",
+      "System.Diagnostics.PerformanceCounter, {System.Diagnostics.PerformanceCounter, 7.0.0}",
+      "System.DirectoryServices, {System.DirectoryServices, 7.0.1}",
+      "System.DirectoryServices.Protocols, {System.DirectoryServices.Protocols, 7.0.1}",
+      "System.Drawing.Common, {System.Drawing.Common, 7.0.0}",
+      "System.Formats.Asn1, {System.Formats.Asn1, 7.0.0}",
+      "System.Security.Cryptography.Pkcs, {System.Security.Cryptography.Pkcs, 7.0.3}",
+      "System.Security.Cryptography.ProtectedData, {System.Security.Cryptography.ProtectedData, 7.0.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 7.0.0}",
+      "System.Windows.Extensions, {System.Windows.Extensions, 7.0.0}"
+    ],
+    "targetFramework": "net8.0",
+    "typeReuseMode": "All"
+  }
+}
